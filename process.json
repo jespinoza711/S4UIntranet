@@ -1,0 +1,15 @@
+{
+    "apps": [{
+        "script": "./src/app.js",
+        "watch": true,
+        "port": 5000,
+        "error_file":"./logs/app-error.log",
+        "out_file":"./logs/app-out.log",
+        "env": {
+            "NODE_ENV": "development",
+        },
+        "env_production": {
+            "NODE_ENV": "production"
+        }
+    }]
+}
