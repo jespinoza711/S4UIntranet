@@ -1,0 +1,16 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Marko Templating Engine</title>
+    </head>
+    <body>
+        <h1>
+            Hello ${data.name}!
+        </h1>
+    </body>
+</html> -->
+
+<layout-use("../default-layout.marko") show-header=true>
+	<layout-put into="title">My page</layout-put>
+	<layout-put into="body">Body Content</layout-put>
+</layout-use>

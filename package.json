@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
- 
   "keywords": [
     "intranet",
     "nodejs",
@@ -14,12 +13,11 @@
   ],
   "author": "Julio Emilio Espinoza Muñoz <julioemilio2003@yahoo.es>",
   "license": "MIT",
- 
   "dependencies": {
     "body-parser": "1.15.2",
     "cookie-parser": "1.4.3",
     "express": "4.14.0",
-    "express-handlebars": "3.0.0"
+    "marko": "3.6.2"
   },
   "devDependencies": {
     "pm2": "1.1.3"
