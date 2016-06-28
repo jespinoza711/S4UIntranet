@@ -1,0 +1,25 @@
+{
+  "name": "intranets4u",
+  "version": "0.0.1",
+  "description": "Intranet que permite llevar el control de los proyectos y gestionesde nuestros clientes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "intranet",
+    "nodejs",
+    "express"
+  ],
+  "author": "Julio Emilio Espinoza Muñoz <julioemilio2003@yahoo.es>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "cookie-parser": "1.4.3",
+    "express": "4.14.0",
+    "marko": "3.6.2"
+  },
+  "devDependencies": {
+    "pm2": "1.1.3"
+  }
+}
